@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+    <h2>Create Account</h2>
+    <input type="text" id="regUser" placeholder="Username" required>
+    <input type="password" id="regPass" placeholder="Password" required>
+    <button onclick="register()">Sign Up</button>
+    <span class="link" onclick="window.location.href='login.html'">Already have an account? Login</span>
+</div>
+
+<script>
+function register() {
+    let user = document.getElementById("regUser").value.trim();
+    let pass = document.getElementById("regPass").value.trim();
+
+    if(!user || !pass) {
+        alert("Please fill all fields");
+        return;
+    }
+
+    localStorage.setItem("username", user);
+    localStorage.setItem("password", pass);
+    alert("Account created successfully!");
+    window.location.href = "login.html";
+}
+</script>
+</body>
+</html>
