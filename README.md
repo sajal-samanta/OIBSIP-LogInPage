@@ -7,6 +7,7 @@ This project allows users to **log in to their account or register as a new user
 ---
 
 ## 🚀 Features
+
 - 📝 **Registration Form** for new users.
 - 🔑 **Login Form** for existing users.
 - 🔄 **Form toggle animation** between Login and Register.
