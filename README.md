@@ -13,8 +13,11 @@ This project allows users to **log in to their account or register as a new user
 - 🔄 **Form toggle animation** between Login and Register.
 - 📱 **Fully responsive** – works on desktop, tablet, and mobile.
 - 🎨 Modern and attractive UI design.
+- regester
 
 ---
+
+
 
 ## 🛠️ Technologies Used
 - **HTML5** – Structure
